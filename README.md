@@ -26,12 +26,7 @@ A full-stack application with a React frontend and Flask backend for monitoring 
 cd backend
 ```
 
-2. Create a virtual environment:
-```sh
-python -m venv venv
-```
-
-3. Activate the virtual environment:
+2. Activate the virtual environment, already in the repo:
 - Windows:
 ```sh
 .\venv\Scripts\activate
@@ -41,7 +36,7 @@ python -m venv venv
 source venv/bin/activate
 ```
 
-4. Install dependencies:
+4. Install dependencies (the venv has all the dependencies in it so this may not be required):
 ```sh
 pip install -r requirements.txt
 ```
