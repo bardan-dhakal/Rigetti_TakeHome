@@ -16,7 +16,7 @@ A full-stack application with a React frontend and Flask backend for monitoring 
 │   └── requirements.txt  # Python dependencies
 ├── frontend/        # React application
 │   ├── package.json     # npm dependencies
-│   └── .npmrc          # npm configuration
+│   
 ```
 
 ## Backend Setup
@@ -70,5 +70,14 @@ npm install
 npm run dev
 ```
 
-The frontend will run on http://localhost:5173
+4. Follow the setup instructions above exactly as written
+
+5. Verify the installation:
+- Backend should show: "Running on http://localhost:8000"
+- Frontend should show: "Local: http://localhost:5173"
+- Open browser to http://localhost:5173
+- Data table should load and display correctly
+- Live mode should connect successfully
+
+If any step fails, update the requirements.txt or package.json accordingly.
 
